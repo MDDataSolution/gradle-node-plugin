@@ -32,9 +32,6 @@ java {
 
 repositories {
     mavenCentral()
-    // Necessary for dokka (will have to be removed when dokka no longer
-    // depends on artifacts only present in jcenter)
-    jcenter()
 }
 
 dependencies {
